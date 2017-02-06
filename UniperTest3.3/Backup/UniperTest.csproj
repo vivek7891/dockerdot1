@@ -1,0 +1,13 @@
+<Project DefaultTargets="DevRelease" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+  <ItemGroup>  
+    	<Compile Include="Default.aspx.cs" />
+	<Content Include="Default.aspx" />
+	<Content Include="Web.config" />   
+  </ItemGroup>  
+  <Target Name="DevRelease">    
+	<Message Text="Release for Dev"/>   
+  </Target>
+  <Target Name="IntRelease">    
+	<Message Text="Release for INT"/>   
+  </Target>   
+</Project>  
